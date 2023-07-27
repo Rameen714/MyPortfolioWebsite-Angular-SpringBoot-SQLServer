@@ -1,0 +1,26 @@
+.image-container {
+    position: relative;
+    display: flex;
+  }
+  
+  img {
+    width: 100%;
+    height: 100vh;
+    border-radius: 5px;
+  }
+.image-text {
+    position: absolute;
+    
+    
+    right: 1%;
+    top: 45%;
+    background-color: #b9048c; /*rgba(0, 0, 0, 0.6); /* Add a semi-transparent background to improve text readability */
+    padding: 10px; /* Add padding to the text for better readability */
+    color: white; /* Add text color */
+    margin: 5%;
+    border-radius: 15px;
+    width: 30%;
+  }
+mat-card{
+  position: relative;
+}

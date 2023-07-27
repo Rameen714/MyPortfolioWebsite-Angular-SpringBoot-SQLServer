@@ -1,0 +1,12 @@
+img{
+    width: 350px;
+    height: auto; /* To maintain the aspect ratio of the image */
+  }
+
+.grid-content{
+    margin: 1px 1px 1px 3px;
+    padding: 1px 1px 1px 1px;
+}
+mat-grid-tile{
+    background: linear-gradient(to bottom,#c87dff, #ff67ab);
+}
