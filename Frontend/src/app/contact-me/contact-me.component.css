@@ -1,0 +1,19 @@
+form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0px 5px 0px 5px;
+    padding: 2px 2px 2px 2px;
+    background: linear-gradient(#f9a8d4, #b9048c);
+    border-radius: 5px;
+}
+
+h1{
+    color: white;
+}
+a{
+    color: #b9048c;
+    background-color: #f9a8d4;
+}

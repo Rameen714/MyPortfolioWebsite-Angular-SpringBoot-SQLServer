@@ -5,3 +5,10 @@ form{
     position: relative;
     flex-direction: column;
 }
+mat-card{
+    background: linear-gradient(#f9a8d4, #b9048c);
+}
+a{
+    color: #b9048c;
+    background-color: #f9a8d4;
+}

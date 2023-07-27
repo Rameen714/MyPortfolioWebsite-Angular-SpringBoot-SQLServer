@@ -10,7 +10,7 @@ import { MatMenu,MatButton, MatSidenav,MatSlideToggleModule,MatCard, MatCardModu
 import { HttpClientModule } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { LoginComponent } from './login/login.component';
-import { FormBuilder, FormGroup, FormsModule, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { AddProjectComponent } from './add-project/add-project.component';
 
 @NgModule({
@@ -32,9 +32,7 @@ import { AddProjectComponent } from './add-project/add-project.component';
     MatGridListModule,
     MatFormFieldModule,
     MatInputModule,
-    MatButtonModule,
-    
-
+    MatButtonModule
 
   ],
   providers: [],

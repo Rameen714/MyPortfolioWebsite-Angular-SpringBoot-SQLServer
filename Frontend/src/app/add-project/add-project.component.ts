@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddProjectComponent implements OnInit {
 
+
+  name: string;
+  link: string;
+  description: string;
+
+  getName(){
+  }
+
   constructor() { }
 
   ngOnInit() {

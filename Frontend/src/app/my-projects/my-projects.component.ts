@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ProjectService } from '../my-projects-service.service';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-my-projects',
@@ -11,7 +12,7 @@ export class MyProjectsComponent implements OnInit {
 
   data: any;
 
-  constructor(private projectService: ProjectService) 
+  constructor(private projectService: ProjectService, private formbuilder: FormBuilder) 
   { }
 
   fetchData(){
