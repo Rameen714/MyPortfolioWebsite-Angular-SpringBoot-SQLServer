@@ -1,13 +1,7 @@
 button { 
   background-color: #b9048c;/*#04cafc;*/
   color: white; 
-  padding: 2% ; 
-  text-align: center; 
-  text-decoration:solid;
-  font-size:medium;
-  display: inline-block; 
   margin-right: 3% ;
-  border-radius: 5px;
 } 
 a{
  text-decoration: none;
