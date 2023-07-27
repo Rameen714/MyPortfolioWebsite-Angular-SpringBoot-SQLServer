@@ -1,0 +1,14 @@
+
+
+<mat-grid-list cols="3">
+  <mat-grid-tile *ngFor="let p of data">
+    <div>
+    <img [src]="getImageUrl(p.imageID)" alt="ProjectImage" class="mat-elevation-z4"/> 
+    <div class="grid-content">
+      <p class="mat-body-2">{{p.name}}</p>
+      <p class="mat-body-1">{{p.desc}}</p>
+      <a [href]="p.link" >{{p.link}}</a>
+    </div>
+  </div>
+  </mat-grid-tile>
+</mat-grid-list>
